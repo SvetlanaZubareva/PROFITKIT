@@ -217,6 +217,9 @@
     margin-right: 63px;
   }
   @media(max-width:768px){
+    .section-button{
+      display: none;
+    }
     .button__svg--color{
       margin-right: 15px;
     }
