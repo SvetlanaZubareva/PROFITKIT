@@ -217,6 +217,16 @@
     margin-right: 63px;
   }
   @media(max-width:768px){
+    .section__li-div__svg1{
+      position: absolute;
+      top: 60px;
+      left: 210px;
+    }
+    .section__li-div__svg{
+      position: absolute;
+      top: 20px;
+      left: 210px;
+    }
     .section-button{
       display: none;
     }
