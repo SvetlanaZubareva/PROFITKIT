@@ -1,0 +1,161 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  @font-face {
+   font-family: "Rubik";
+   font-style: normal;
+   font-weight: 400;
+   src: url("./font/Rubik-Regular\ \(1\).woff2") format("woff2");
+   font-display: swap;
+ } */
+ /* @import url(//db.onlinewebfonts.com/c/266447f91e71c4700d74aab76fbc3870?family=Bodoni+MT+Black); */
+  
+  html {
+    height: 100%;
+    overflow-x: hidden;
+    /* overflow-y: hidden  */
+  }
+  
+  body {
+    width: 100%;
+    min-height: 100%;
+    font-family: "Rubik";
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #000;
+    background-color: #fff;
+    min-width: 320px;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+  button,
+  a{
+   cursor: pointer;
+   text-decoration: none;
+   color: #000;
+  }
+  p,
+  h2,
+  h1,
+  h3{
+    margin: 0;
+  }
+  li{
+    list-style: none;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .main__h2{
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 700;
+    margin-right: 25px;
+  }
+  .main__li{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 400;
+    color: #535658;
+  }
+  .section__li-h2{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+  .div__span{
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 700;
+  }
+  .div__span--color{
+    color: #8D9295;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+  }
+  .span-button{
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+  }
+  .main{
+    padding: 80px 5% 80px;
+  }
+  .section__ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .main__section{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    margin-bottom: 40px;
+  }
+  .main__ul{
+    display: flex;
+  }
+  .main__li{
+    margin-right: 25px;
+  }
+  .section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .section__li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ECF0F4;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  .section__li:nth-child(4){
+    margin-right: 0;
+  }
+  @media(max-width:768px){
+    .main__section{
+        display: flex;
+        flex-direction: column;
+      }
+      .main__ul{
+        display: flex;
+        flex-direction: column;
+      }
+    .main{
+        padding: 40px 6% 40px;
+      }
+    img{
+        width: 260px;
+        height: 260px;
+    }
+    .main__h2{
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 700;
+      }
+      .main__li{
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 400;
+        color: #535658;
+      }
+      .section__li-h2{
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 400;
+      }
+  }
